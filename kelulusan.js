@@ -3,6 +3,7 @@ const dataKelulusan = [
     { nisn: "1234567890", nama: "Budi Santoso", kelas: "XII MIPA 1", status: "LULUS" },
     { nisn: "0987654321", nama: "Siti Aminah", kelas: "XII MIPA 3", status: "LULUS" },
     { nisn: "098765", nama: "Siti kunsnah", kelas: "XII MIPA 3", status: "LULUS" },
+    { nisn: "676767", nama: "COKI", kelas: "XII MIPA 3", status: "TIDAK LULUS" },
     { nisn: "1122334455", nama: "Andi Wijaya", kelas: "XII IPS 2", status: "TIDAK LULUS" }
 ];
 
