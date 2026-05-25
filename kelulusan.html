@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Portal - SMA Negeri 9 Cirebon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="loader-wrapper" id="loader"><div class="loader"></div></div>
+
+    <!-- Smart Navbar -->
+    <header id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="gmbr/logo.png" alt="SMAN 9 Cirebon Logo" onerror="this.src='https://via.placeholder.com/60'">
+                    </a>
+                    <div class="logo-text">
+                        <h1>SMA Negeri 9 Cirebon</h1>
+                        <span class="en-subtitle">Character, Excellence, Eco-Friendly</span>
+                    </div>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+                <nav>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="visi misi.html">Visi Misi</a></li>
+                        <li><a href="jurusan & eskul.html">Jurusan & Eskul</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="kelulusan.html"class="active">Kelulusan</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <section class="kelulusan-section">
+        <!-- Ambient Decorative Glow -->
+        <div class="ambient-glow glow-1"></div>
+        <div class="ambient-glow glow-2"></div>
+
+        <div class="container">
+            <div class="kelulusan-card reveal fade-up">
+                <div class="card-icon">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <h2>Pengumuman Kelulusan 2026</h2>
+                <p class="subtitle-en">Graduation Announcement Portal</p>
+                <p class="desc-text">Silakan masukkan Nomor Induk Siswa Nasional (NISN) dan Nama Lengkap untuk mengakses dokumen Surat Keterangan Lulus (SKL) digital Anda.</p>
+                
+                <div class="search-box" id="searchBox">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <i class="fas fa-id-card input-icon"></i>
+                            <input type="text" id="inputNISN" placeholder="10 Digit NISN (e.g. 1234567890)" maxlength="10" autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-user input-icon"></i>
+                            <input type="text" id="inputNama" placeholder="Nama Lengkap (Full Name)" autocomplete="off">
+                        </div>
+                    </div>
+                    <button onclick="cekKelulusan()" class="btn-cari ripple" id="btnCari">
+                        <span>Verifikasi Data</span> <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Result Injection Container -->
+                <div id="hasilPencarian" class="hasil-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2026 SMA Negeri 9 Cirebon. All Rights Reserved.</p>
+                <p class="credits">Developed by Team 2: Gio Agus Pratama, Kayla Yuniarti, Luthfie, Mitha Aulia Sari.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="kelulusan.js"></script>
+</body>
+</html>

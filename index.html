@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Negeri 9 Cirebon</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <header id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="gmbr/logo.png" alt="Logo SMAN 9 Cirebon" onerror="this.src='https://via.placeholder.com/60?text=Logo'">  
+                    </a>
+                    <div class="logo-text">
+                        <h1>SMA Negeri 9 Cirebon</h1>
+                        <span>Karakter, Unggul, Berwawasan Lingkungan</span>
+                    </div>
+                </div>
+                
+                <nav>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="index.html" class="active">Beranda</a></li>
+                        <li><a href="#profil">Profil</a></li>
+                        <li><a href="visi misi.html">Visi Misi</a></li>
+                        <li><a href="jurusan & eskul.html">Jurusan & Eskul</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="kelulusan.html">Kelulusan</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger" aria-label="Menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="beranda">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal fade-up">
+            <span class="badge">Selamat Datang di</span>
+            <h2>SMA Negeri 9 Cirebon</h2>
+            <p id="typing-text" class="typing-container"></p>
+            <div class="hero-buttons">
+                <a href="#program" class="btn btn-primary ripple">Program Kami</a>
+                <a href="#profil" class="btn btn-secondary ripple">Jelajahi Profil</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile container" id="profil">
+        <div class="section-header reveal fade-up">
+            <h2 class="section-title">Profil Sekolah</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="profile-content">
+            <div class="profile-text reveal slide-right">
+                <p>SMA Negeri 9 Kota Cirebon resmi didirikan pada 20 Mei 2004. Berkomitmen menyelenggarakan pendidikan berkualitas, SMAN 9 bertransformasi menjadi institusi unggul dalam akademik, disiplin, dan pelestarian lingkungan hidup dengan fasilitas modern.</p>
+                <div class="profile-stats">
+                    <div class="stat hover-lift">
+                        <h3 class="counter" data-target="1200">0</h3>
+                        <p>Siswa Aktif</p>
+                    </div>
+                    <div class="stat hover-lift">
+                        <h3 class="counter" data-target="85">0</h3>
+                        <p>Guru & Staff</p>
+                    </div>
+                    <div class="stat hover-lift">
+                        <h3 class="counter" data-target="25">0</h3>
+                        <p>Kelas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-image reveal slide-left">
+                <img src="gmbr/gedung.png" alt="Gedung SMA Negeri 9 Cirebon" class="zoom-img" onerror="this.src='https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'">
+            </div>
+        </div>
+    </section>
+
+    <section class="programs" id="program">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <h2 class="section-title">Program Unggulan</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card reveal fade-up stagger-1 hover-lift">
+                    <div class="icon-box"><i class="fas fa-microscope"></i></div>
+                    <h3>Kelas Sains</h3>
+                    <p>Pengembangan riset, analitik, dan bakat di bidang sains dengan laboratorium berstandar internasional.</p>
+                </div>
+                <div class="program-card reveal fade-up stagger-2 hover-lift">
+                    <div class="icon-box"><i class="fas fa-globe"></i></div>
+                    <h3>Kelas Bahasa</h3>
+                    <p>Penguasaan multi-bahasa asing menggunakan metode pembelajaran interaktif dan native speaker.</p>
+                </div>
+                <div class="program-card reveal fade-up stagger-3 hover-lift">
+                    <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
+                    <h3>IT Club</h3>
+                    <p>Inkubator teknologi informasi, pemrograman, dan robotik untuk mencetak talenta digital masa depan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container" id="kontak">
+        <div class="contact-content reveal fade-up">
+            <div class="contact-info">
+                <h2 class="section-title text-left">Hubungi Kami</h2>
+                <p class="contact-desc">Punya pertanyaan seputar penerimaan siswa baru atau program sekolah? Jangan ragu untuk menghubungi kami.</p>
+                
+                <div class="contact-list">
+                    <div class="contact-item hover-lift">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jl. Ciremai Raya No.63 Larangan, Kec. Harjamukti, Kota Cirebon, Jawa Barat 45141</span>
+                    </div>
+                    <div class="contact-item hover-lift">
+                        <i class="fas fa-phone"></i>
+                        <span>0812-XXXX-XXXX</span>
+                    </div>
+                    <div class="contact-item hover-lift">
+                        <a href="mailto:info@sman9cirebon.sch.id" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@sman9cirebon.sch.id</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="social-media">
+                    <div class="social-icons">
+                        <a href="#" class="ripple"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="ripple"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="ripple"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="ripple"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container hover-lift">
+                <iframe src="https://www.google.com/maps/embed/v1/place?q=sma%20negri%209%20cirebon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 SMA Negeri 9 Cirebon. Hak Cipta Dilindungi.</p>
+                <p class="credits">Developed by Kelompok 2: Gio Agus Pratama, Kayla Yuniarti, Luthfie, Mitha Aulia Sari.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="_x7k9m2" class="easter-modal">
+        <div class="easter-content">
+            <img src="gmbr/easter.jpeg" onerror="this.src='https://via.placeholder.com/240'">
+            <h2>🎉 wii ketemu "luthfie xi-b" 🎉</h2>
+            <p>Klik di mana saja untuk kembali</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
